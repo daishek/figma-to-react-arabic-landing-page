@@ -230,3 +230,109 @@ export const infoData: InfoDataType[] = [
     image: WorkinghourIcon,
   },
 ];
+
+// === links ===
+export type LinkDataProps = {
+  id: string;
+  label: string;
+};
+export type LinksDataProps = {
+  id: string;
+  title: string;
+  links: LinkDataProps[];
+};
+
+export const linksData: LinksDataProps[] = [
+  {
+    id: "1",
+    title: "حول",
+    links: [
+      {
+        id: "1",
+        label: "الشركة",
+      },
+      {
+        id: "2",
+        label: "من نحن؟",
+      },
+      {
+        id: "3",
+        label: "فرص العمل",
+      },
+      {
+        id: "4",
+        label: "المدونة",
+      },
+    ],
+  },
+  {
+    id: "2",
+    title: "خدماتنا",
+    links: [
+      {
+        id: "1",
+        label: "بطاقات الطيران",
+      },
+      {
+        id: "2",
+        label: "الرحلات البحرية",
+      },
+      {
+        id: "3",
+        label: "الفنادق",
+      },
+      {
+        id: "4",
+        label: "الرحلات البرية",
+      },
+      {
+        id: "5",
+        label: "تأمين الفيزا",
+      },
+    ],
+  },
+  {
+    id: "3",
+    title: "الحجوزات",
+    links: [
+      {
+        id: "1",
+        label: "العروض الجديدة",
+      },
+      {
+        id: "2",
+        label: "تأكد من حجزك",
+      },
+      {
+        id: "3",
+        label: "الاشتراكات",
+      },
+      {
+        id: "4",
+        label: "طرق السفر",
+      },
+    ],
+  },
+  {
+    id: "4",
+    title: "الموقع",
+    links: [
+      {
+        id: "1",
+        label: "سياسة الخصوصية",
+      },
+      {
+        id: "2",
+        label: "شروط الاستخدام",
+      },
+      {
+        id: "3",
+        label: "بلغ عن مشكلة",
+      },
+      {
+        id: "4",
+        label: "تواصل معنا",
+      },
+    ],
+  },
+];

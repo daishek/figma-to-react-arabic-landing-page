@@ -8,7 +8,7 @@ const OurServices = () => {
     <Section subtitle="تمتع في رحلتك" title="مجموعة من خدماتنا" center>
       <Container>
         <div className="relative bg-candy-100 rounded-[25px] py-[64px] px-[30px] flex flex-col gap-y-[40px] items-center text-center ">
-          <div className="absolute top-[-10px] left-[33.79px]">
+          <div className="absolute top-[-10px] left-[15%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="65"

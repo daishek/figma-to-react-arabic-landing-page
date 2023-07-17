@@ -1,3 +1,4 @@
+import Footer from "../components/footer";
 import Header from "../components/header";
 import Connect from "../partials/connect";
 import OurServices from "../partials/our-services";
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Price />
       <Reviews />
       <Connect />
+      <Footer />
     </div>
   );
 };
