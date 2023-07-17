@@ -152,3 +152,45 @@ export const pricesData: PriceData[] = [
     ],
   },
 ];
+
+// === reviews ===
+import UserAvatar from "./user-avatar-02.jpg";
+type UserData = {
+  name: string;
+  avatar: string;
+};
+export type ReviewData = {
+  id: string;
+  user: UserData;
+  comment: string;
+};
+
+export const reviewsData: ReviewData[] = [
+  {
+    id: "1",
+    user: {
+      name: "محمد الأحمد",
+      avatar: UserAvatar,
+    },
+    comment:
+      "كانت تجربة مميزة مع خدمات رائعة قضيت أفضل إجازة لي من فترة طويلة، أنصح بالتعامل مع شركة رحلاتي بدون تردد.",
+  },
+  {
+    id: "2",
+    user: {
+      name: "أسامة الأبيض",
+      avatar: UserAvatar,
+    },
+    comment:
+      "يمكنني القول إنني قمت بقطاء أفضل رحلة عائلة على الإطلاق، كان الفنادق رائعة وخطة السفر ممتازة جداً ومريحة.",
+  },
+  {
+    id: "3",
+    user: {
+      name: "ماهر عبد اللطيف",
+      avatar: UserAvatar,
+    },
+    comment:
+      "تقدم شركة رحلاتي خدمات مناسبة جداً لرجال الأعمال، هذا ما ساعدني في رحلتي وجعلني اختصر جداً من مشاكل الحجوزات.",
+  },
+];

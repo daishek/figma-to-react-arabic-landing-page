@@ -22,8 +22,8 @@ export default {
         },
       },
       backgroundImage: {
-        "desktop-hero": "url('./src/assets/vintage-photo.jpg')",
-        "mobile-hero": "url('./src/assets/vintage-photo-mobile.jpg')",
+        "desktop-hero": "url('assets/vintage-photo.jpg')",
+        "mobile-hero": "url('assets/vintage-photo-mobile.jpg')",
       },
       borderRadius: {
         16: "16px",

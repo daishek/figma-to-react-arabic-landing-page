@@ -1,3 +1,3 @@
-# Figma to ReactJs
+**Figma to ReactJs**
 
-## Arabic landing page
+# Arabic landing page
