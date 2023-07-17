@@ -1,4 +1,5 @@
 import Header from "../components/header";
+import Connect from "../partials/connect";
 import OurServices from "../partials/our-services";
 import Price from "../partials/prices";
 import Reviews from "../partials/reviews";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <OurServices />
       <Price />
       <Reviews />
+      <Connect />
     </div>
   );
 };

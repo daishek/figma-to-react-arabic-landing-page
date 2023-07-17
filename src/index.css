@@ -35,3 +35,7 @@ body {
 .font-body-2 {
   @apply text-[16px] md:text-[18px] font-[500];
 }
+
+.brutalisme-box {
+  @apply shadow-hard rounded-hard border-[1.5px] border-umbra-700;
+}

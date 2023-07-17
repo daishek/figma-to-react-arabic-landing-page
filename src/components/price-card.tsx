@@ -10,7 +10,7 @@ const PriceCard: React.FC<PriceData> = ({
 }) => {
   return (
     <div
-      className={`shadow-hard py-[36px] px-[24px] rounded-hard border-[1.5px] border-umbra-700 ${
+      className={`brutalisme-box py-[36px] px-[24px] ${
         hot ? "bg-candy-800 text-white" : "bg-rize-300 text-umbra-700"
       }`}
     >

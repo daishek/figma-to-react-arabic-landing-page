@@ -194,3 +194,39 @@ export const reviewsData: ReviewData[] = [
       "تقدم شركة رحلاتي خدمات مناسبة جداً لرجال الأعمال، هذا ما ساعدني في رحلتي وجعلني اختصر جداً من مشاكل الحجوزات.",
   },
 ];
+
+// === info ===
+import WorkinghourIcon from "./working-hours-icon.png";
+import CommunicationIcon from "./communication-icon.png";
+import HelpIcon from "./help-icon.png";
+
+export type InfoDataType = {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+};
+
+export const infoData: InfoDataType[] = [
+  {
+    id: "1",
+    title: "نقدم لك المساعدة",
+    description:
+      "إن كان لديك اي مشكلة في البلد الذي تسافر إليه سنقوم بمساعدك في هذا الموضوع.",
+    image: HelpIcon,
+  },
+  {
+    id: "2",
+    title: "للتواصل",
+    description:
+      "يمكنك التواصل معنا عبر الفورم أو عبر البريد الإلكتروني: company@mail.com",
+    image: CommunicationIcon,
+  },
+  {
+    id: "3",
+    title: "أوقات الدوام",
+    description:
+      "يمكنك التواصل معنا يومياً أثناء أوقات الدوام من الساعة 9 صباحاً حتى 6 مساءاً.",
+    image: WorkinghourIcon,
+  },
+];

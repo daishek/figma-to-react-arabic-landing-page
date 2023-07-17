@@ -2,7 +2,7 @@ import { ReviewData } from "../assets/data";
 
 const ReviewCard: React.FC<ReviewData> = ({ comment, user }) => {
   return (
-    <div className="py-[32px] px-[20px] rounded-hard bg-candy-100 md:bg-red-900 grid gap-y-[18px] bg-reg-100">
+    <div className="py-[32px] px-[20px] rounded-hard bg-candy-100 grid gap-y-[18px] bg-reg-100">
       <div className="flex gap-x-[4px] justify-start items-center">
         {[1, 2, 3, 4, 5].map((star) => (
           <svg
