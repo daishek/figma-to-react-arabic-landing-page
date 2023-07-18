@@ -10,15 +10,16 @@ const PriceCard: React.FC<PriceData> = ({
 }) => {
   return (
     <div
-      className={`brutalisme-box py-[36px] px-[24px] ${
-        hot ? "bg-candy-800 text-white" : "bg-rize-300 text-umbra-700"
-      }`}
+      className={`brutalisme-box py-[36px] px-[24px] 
+      ${hot ? "bg-candy-800 text-white" : "bg-rize-300 text-umbra-700"}
+      ${!hot ? "md:mt-[48px]" : "md:mb-[48px]"}
+        `}
     >
       <p className="font-body mb-[16px]">
         <span className="text-[32px] font-[900]">${price}</span> / للشخص
       </p>
       <h3 className="heading-3 mb-[16px]">{title}</h3>
-      <p className="font-body">{description}</p>
+      <p className="font-body-2">{description}</p>
       <div
         className={`h-[1px] w-full my-[32px] ${
           hot ? "bg-umbra-300" : "bg-umbra-500"

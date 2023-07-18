@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="bg-umbra-700 text-white pt-[76px] pb-[44px]">
         <Container>
           <div className="grid grid-flow-row grid-cols-2 grid-rows-3 gap-y-[44px] gap-x-1 md:grid-rows-1 md:grid-cols-6">
-            <div className="col-span-2">
+            <div className="col-span-2 md:ml-[100px]">
               <Logo />
-              <p className="font-body mt-[20px] text-umbra-400">
+              <p className="font-body-2 mt-[20px] text-umbra-400">
                 شركة متخصصة في مجال السياحة والسفر نقدم خدمات تأمين الرحلات
                 والحجوزات والفيز لكل أنحاء العالم.
               </p>
@@ -21,12 +21,13 @@ const Footer = () => {
               <LinkCard key={link.id} {...link} />
             ))}
           </div>
-          <div className="h-[1px] w-full bg-umbra-500" />
-          <div className="mt-[40px]">
-            <span>2023 جميع الحقوق محفوظة لموقع</span>
-            <br />
-            <span className="text-rize-600">للمصمم أحمد سكماني</span>
-            <div className="mt-[28px]">
+          <div className="h-[1px] w-full bg-umbra-500 md:mt-[64px]" />
+          <div className="mt-[40px] md:flex md:items-center md:justify-between">
+            <div className="flex flex-col md:flex-row gap-1">
+              <span>2023 جميع الحقوق محفوظة لموقع</span>
+              <span className="text-rize-600">للمصمم أحمد سكماني</span>
+            </div>
+            <div className="mt-[28px] md:m-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="158"

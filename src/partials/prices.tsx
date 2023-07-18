@@ -7,7 +7,7 @@ const Price = () => {
   return (
     <Section subtitle="لا تقلق حول التكلفة" title="خطط تناسب ميزانيتك">
       <Container>
-        <div className="grid gap-y-[40px]">
+        <div className="grid md:grid-cols-3 gap-y-[40px] md:gap-x-[45px]">
           {pricesData.map((item) => (
             <PriceCard key={item.id} {...item} />
           ))}

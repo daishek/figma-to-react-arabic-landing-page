@@ -17,25 +17,29 @@ const Header = () => {
 
             pt-[36px]
             px-[20px]
+            md:pt-[48px]
+            md:px-[60px]
         "
     >
       <Navbar />
-      <div className="mt-[80px] text-center">
-        <h1 className="heading-1 mb-[18px]">سافر معنا إلى العالم</h1>
-        <p className="body mb-[36px]">
+      <div className="mt-[80px] md:mt-[190px] text-center">
+        <h1 className="heading-1 mb-[28px]">سافر معنا إلى العالم</h1>
+        <p className="font-body mb-[36px] md:max-w-[581px] md:mx-auto">
           نوفر لك أفضل الرحلات التي تحتاجها لجميع البلدان وبخدمات مخصصة لك
           ولعائلتك
         </p>
-        <Button full primary>
-          احجز الآن
-          <img
-            src={ArrowIcon}
-            className="mr-[12px] h-[30px] w-[30px]"
-            alt="icon"
-          />
-        </Button>
-        <div className="mt-[92px] grid place-content-center relative">
-          <div className="absolute -top-10 left-0">
+        <div className="w-full md:w-[222px] mx-auto">
+          <Button full primary>
+            احجز الآن
+            <img
+              src={ArrowIcon}
+              className="mr-[12px] h-[30px] w-[30px]"
+              alt="icon"
+            />
+          </Button>
+        </div>
+        <div className="mt-[92px] grid place-content-center relative ">
+          <div className="absolute -top-10 left-1/2 translate-x-[calc(-50%-79px)] md:translate-x-[calc(-50%-127px)]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="121"

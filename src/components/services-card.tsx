@@ -7,7 +7,9 @@ const ServicesCard: React.FC<ServiceData> = ({ title, description, image }) => {
       <h3 className="heading-3 text-umbra-700 mb-[20px] leading-tight">
         {title}
       </h3>
-      <p className="font-body-2 text-umbra-500 leading-tight">{description}</p>
+      <p className="font-body-2 text-umbra-500 leading-tight max-w-[258px] mx-auto">
+        {description}
+      </p>
     </div>
   );
 };

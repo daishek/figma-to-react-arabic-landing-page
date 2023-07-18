@@ -8,7 +8,7 @@ const Connect = () => {
   return (
     <Section subtitle="هل لديك سؤال؟" title="يسعدنا التواصل معك">
       <Container>
-        <div className="grid gap-y-[56px]">
+        <div className="grid md:grid-cols-2 gap-y-[56px] md:gap-x-[64px]">
           <Form />
           <div className="flex flex-col gap-y-[40px] items-center text-center ">
             {infoData.map((item) => (

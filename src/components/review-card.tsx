@@ -26,7 +26,7 @@ const ReviewCard: React.FC<ReviewData> = ({ comment, user }) => {
         </div>
         <h3 className="heading-3 text-umbra-700">{user.name}</h3>
       </div>
-      <p className="font-body text-umbra-500">{comment}</p>
+      <p className="font-body-2 text-umbra-500">{comment}</p>
     </div>
   );
 };
